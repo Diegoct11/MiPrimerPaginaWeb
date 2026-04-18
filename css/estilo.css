@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(161, 157, 157);
+}
+
+.Seccion_1{
+    background-color: rgb(31, 111, 92);
+    color: beige;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
