@@ -9,10 +9,39 @@ body{
     background-color: rgb(161, 157, 157);
 }
 
-.Seccion_1{
-    background-color: rgb(31, 111, 92);
-    color: beige;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
+header{
+    background-color: rgb(255, 127, 255);
+    padding: 15px 40px;
+}
+header h1{
+    font-size: 25px;
+}
+nav{
+    margin-top: 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+}
+main{
+    background-color: rgb(151, 135, 45);
+    padding: 10px 20px;
+}
+
+section{
+    background-color: blue;
+    padding: 10px 0px;
+    border-radius: 10px; 
+}
+ p{
+    /* width: 1180px; */
+    background-color: burlywood;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+footer{
+    background-color: rgb(70, 118, 102);
 }
