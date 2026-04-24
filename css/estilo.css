@@ -12,27 +12,23 @@ body{
 header{
     background-color: #213C51;
     padding: 10px 40px;
-    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 header h1{
-    /* border: 1px solid red; */
     font-size: 25px;
-    /* background-color: chartreuse; */
 }
 nav{
-    /* border: 1px solid red; */
     margin-top: 10px;
 }
 nav a{
-    /* border: 1px solid red; */
     padding: 5px;
-    /* background-color: yellow; */
     color: black;
     text-decoration: none;
     margin-right: 20px;
 }
 main{
-    /* background-color: rgb(151, 135, 45); */
     padding: 0px 0px;
 }
 .Hero{
@@ -41,9 +37,7 @@ main{
     linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.0),rgba(0,0,0,0.9) ),
     url(../img/CASAHERO.jpg);
     height: 80vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat; background-size: cover; background-position: center;
     
 }
 .Hero h1{
@@ -56,11 +50,9 @@ section{
     border-radius: 10px; 
 }
  p{
-    /* width: 1180px; */
     background-color: burlywood;
     padding: 10px 20px;
     margin-bottom: 10px;
-    /* text-align: center; */
 }
 
 footer{
